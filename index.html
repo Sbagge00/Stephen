@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+
+ <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+     <title>Stephen Baggett</title>
+     <meta charset="utf-8" />
+     <!--Bootstrap-->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <!--JavaScript Source-->
+     <script src="dragAndDrop.js"></script>
+     <!--CSS3 Source-->
+     <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+     <link href="Main.css" rel="stylesheet" type="text/css" />
+
+ </head>
+ <header>
+     <section id="topbar">
+         <nav class="navbar-brand fixed-top navbar-expand-lg navbar-dark" id="mainNav">
+             <audio controls>
+                 <source src="synth.mp3" type="audio/mpeg">
+                 Your browser does not support the audio element.
+             </audio>
+             <a class="navbar-brand" href="#"></a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNav">
+                 <ul class="navbar-nav">
+                     <li class="nav-item active"><a class="nav-link" href="index.html" style="font-size: 22px;">Home</a></li>
+                     <li class="nav-item"><a class="nav-link" href="index.html#about" style="font-size: 22px;">About</a></li>
+                     <li class="nav-item"><a class="nav-link" href="index.html#blog" style="font-size: 22px;">Blog</a></li>
+                     <!--   <li class="nav-item"><a class="nav-link" href="index.html#art">Art</a></li>  -->
+                     <li class="nav-item"><a class="nav-link" href="index.html#events" style="font-size: 22px;">Contact</a></li>
+                 </ul>
+             </div>
+         </nav>
+     </section>
+ </header>
+ <body>
+     <!--ABOUT SECTION-->
+         <img src="sign.png" style="width: 100%; padding-top: 10em;"/>
+     </h4>
+     <section id="about">
+         <h1 class="display-4 text-center sticky-top">
+             <small class="text-muted">ABOUT</small>
+         </h1>
+         <div class="container mt-4">
+             <h3 style="color: #d2ff00;">Hello There</h3>
+             <p style="padding-right: 0px; padding-left: 0px;">
+                 My name is Stephen Baggett and I am an aspiring writer and software designer.
+                 On this website, you will find many of my rants about the things I love.
+                 Whether it be a snipppet from a book I am working on or a post about Dungeons &amp; Dragons or another TTRPG I game master,
+                 hopefuly you find my work interesting! I also have a twitch on which I stream irregularly over at
+                 <a href="https://www.twitch.tv/stephenbaggett" style="color: gray;">twitch.tv/stephenbaggett</a>.
+                 <br />
+             </p>
+             <h3 style="color: #d2ff00;"><br />Stats</h3>
+             <p style="padding-right: 0px; padding-left: 0px;">
+                 Race: Human <br />
+                 Background: Scholar <br />
+                 Pronouns: He/Him <br />
+                 Alignment: Nuetral Good <br />
+                 Proficiencies: HTML5, CSS3, PL/SQL, C, Java <br />
+                 Skills: Petting Dogs <br>
+                 Starting Equipment: Canon T4i, Common Clothes, Laptop, (1d4) Books, Ocarina of Time
+             </p>
+             <h3 style="color: #d2ff00;"><br />Current Projects</h3>
+             <p style="padding-right: 0px; padding-left: 0px;">
+                 Creating a Roguelike in C <a href="https://github.com/Sbagge00/NetHacklike_Ver.1.6" style="color: gray;">(Github Repo)</a><br />
+                 An Untitled Fantasy Book <br />
+             </p>
+         </div>
+
+         <!--BLOG SECTION-->
+         <section id="blog">
+
+             <h1 class="display-4 text-center sticky-top">
+                 <small class="text-muted">BLOG</small>
+             </h1>
+
+             <div class="container mt-4">
+                 <div class="card-group">
+                     <div class="card" style="background-color: black; width:20em; margin: auto; height: 100%;">
+                         <div class="card-body" style="color: white;">
+                             <div class="card-block">
+                                 <em>Blog</em> | 16.07.19
+                             </div>
+                             <h4>Ash'ku</h4>
+                             <h6>Writing Alien Literature</h6>
+                             <div button style="margin-top: 30px;">
+                                 <a href="#list-chap1" id="list-chap1-list" data-toggle="collapse"
+                                    class="btn btn-warning" style="width: 10em;">Read</a>
+                             </div>
+                         </div>
+                     </div>
+                     <div role="tabpanel" id="list-chap1" class="collapse">
+                         <h2 style="padding-top: 0px;">Ash'ku</h2>
+                         <h4 style="color: white; padding-bottom: 50px;">---Translated into Common from a Xerian datalog---</h4>
+                         <p style="padding-right:70px;">
+                             Winter. It was a cold winter. <br>
+                             People were freezing. <br>
+                             <br>
+                             Open fires flickered late into the night and huddled masses prayed. <br>
+                             They prayed for deliverance from the wind kell. <br>
+                             <br>
+                             The next day we ran out of food. <br>
+                             People were dying. <br>
+                             She was dying. <br>
+                             <br>
+                             <i><b>Kell vaskir na kur’ji</b></i> <br>
+                             <br>
+                             She was my rose. <br>
+                             I found her. She looked on me with eyes of the wolf kell. <br>
+                             “Little rose” I said. “I will teach you to live”. <br>
+                             From that day she called me <i>Ash’ku</i> <br>
+                             <br>
+                             The next day she was bedridden. <br>
+                             Breathing but those wolf eyes shut. <br>
+                             <br>
+                             I killed a man. His blood still on my clothes. <br>
+                             I think he was my brother. <br>
+                             But then she eats a little of the bread I stole. <br>
+                             <i>“Ash’ku”</i> she calls out to me. <br>
+                             I do not let her see the face of a murderer. <br>
+                             <br>
+                             The next day lights appear in the sky. <br>
+                             You come into my home. <br>
+                             You say you can save us. <br>
+                             I say dead people can’t be saved. <br>
+                             <br>
+                             The next day my stomach stops hurting. <br>
+                             Again, you appear, seeing my rose. <br>
+                             You say you can help. <br>
+                             I try to kill you. <br>
+                             <br>
+                             The last day my rose stops talking. <br>
+                             Lights appear in the sky. <br>
+                             You ask for my rose. <br>
+                             Too weak. My body feels strange. I surrender. <br>
+                             You say you can save her. <br>
+                             <br>
+                             My rose.
+                             I give my goodbyes.
+                             I kiss you again and again.
+                             You barely whisper to me <i>“Ash’ku”</i>
+                             <br>
+                             <br><i>“Father”</i><br>
+                             <br>
+                             The next day never came.
+                             <br>
+                             <br>
+                             --------------------------------
+                             <br>
+                             <br>
+                             <br>
+                             About the writing. This is some writing I did for one of my campaigns I am planning.
+                             The story is of an Ash'ku (father) who is desperately trying to take care of his adopted daughter.
+                             Life on the planet TH-283 (called "Xeres" by the inhabitants) is often harsh. It's a barren windswept place full
+                             of canyons, blue deserts, and giant crawlers. The story focuses on a long winter that hit the planet in the year 2940.
+                             The aforementioned "you" refers to a human man who was from the nearby gas giant of TH-832 ALPHA who was on an expedition to
+                             find natural resources to be harvested from Xeres. It is unknown what become of the Xerian child named "Rose".
+                             Only that the tale was precautionary in nature against off-worlders.
+
+                             My plan is let my players find this tale, thereby introducing them to the alien species.
+
+                         </p>
+
+                     </div>
+                     <div class="card" style="background-color: black; width:20em; margin: auto; height: 100%;">
+                         <div class="card-body" style="color: white;">
+                             <div class="card-block">
+                                 <em>Blog</em> | 20.07.19
+                             </div>
+                             <h4>Coming Soon</h4>
+                             <h6>Blog</h6>
+                             <div button style="margin-top: 30px;">
+                                 <a href="#list-chap2" id="list-chap1-list" data-toggle="collapse"
+                                    class="btn btn-warning" style="width: 10em;">Coming Soon</a>
+                             </div>
+                         </div>
+                     </div>
+                     <div role="tabpanel" id="list-chap2" class="collapse">
+                         <!--<p style="padding-right:70px;">
+
+    </p>-->
+                     </div>
+                 </div>
+
+
+
+
+                 <div role="tabpanel" id="list-chap2" class="tab-panel fade">
+                 </div>
+             </div><!-- end tab-content -->
+             </div><!-- end col-8 -->
+             </div><!-- end row -->
+             </div>
+             </div>
+
+             <br />
+             </div>
+
+             <section id="blog">
+
+
+                 <!--ABOUT SECTION-->
+                 <!--
+                <section id="art">
+                    <h1 class="display-4 text-center sticky-top">
+                        <small class="text-muted">ART</small>
+                    </h1>
+
+                    <div class="container mt-4">
+                        <p style="padding-right:70px;">
+                            Established in 1996, our brand aims to represent the pinnacle of personal prowess through pursuits of idealized perfectionism.
+
+                            <br />
+                            <br />
+                            <br />
+
+                            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac
+                            turpis egestas. Suspendisse potenti. Donec fermentum imperdiet mattis. Proin quis
+                            risus pretium, ullamcorper nulla nec, commodo massa. Cras eget fermentum orci.
+                            Curabitur est augue, volutpat pharetra odio quis, sagittis dignissim dolor. Proin
+                            leo odio, dapibus ac enim nec, sodales consectetur sapien.
+
+                        <p style="padding-right:70px;">
+                            Aliquam ornare orci eu nulla sagittis, eu finibus ante mattis. In lacinia
+                            eleifend nunc. Nam vestibulum est risus, condimentum imperdiet velit commodo
+                            eget. Nunc maximus vestibulum ligula, eu aliquet arcu blandit eu. Pellentesque
+                            blandit nibh ligula, sed fermentum neque iaculis ac. Pellentesque posuere enim
+                            quis varius cursus.
+                        </p>
+                        <br />
+                    </div>
+                </section> -->
+
+                 <section id="events">
+                     <h1 class="display-4 text-center sticky-top">
+                         <small class="text-muted">CONTACT</small>
+                     </h1>
+                     <p>
+
+                     </p>
+                     <br />
+                     </div>
+                     <div form style="margin: auto;">
+                         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc1biMzIM2PWauVXVluleBfPYcovE0wIP8uzYuKjLmtE6E5oQ/viewform?embedded=true" 
+                                 width="640" height="892" frameborder="0" marginheight="0" marginwidth="0" style="width: 100%; margin: auto;">
+                             Loading...
+                         </iframe>
+                     </div>
+
+ </body>
+
+
+ <footer>
+     © 2019 Stephen Baggett
+     <Home
+     About
+     Contact
+ </footer>
+ </html>
