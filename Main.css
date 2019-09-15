@@ -48,12 +48,7 @@ p {
     color: white;
     margin-bottom: 0px;
 }
-#blog {
-    background-image: url("Keyboard.JPG");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 #blog p {
     margin-bottom: 0px;
 }
