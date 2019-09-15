@@ -48,12 +48,17 @@ p {
     color: white;
     margin-bottom: 0px;
 }
-
+#blog {
+    background-image: url("NKeyboard.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 #blog p {
     margin-bottom: 0px;
 }
 #events {
-    background-image: url("Keyboard.JPG");
+    background-image: url("Code.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
