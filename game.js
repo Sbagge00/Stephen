@@ -15,6 +15,8 @@ var checkDead = setInterval(function(){
     var bulletLeft = 
     parseInt(window.getComputedStyle(block).getPropertyValue("left"));
     if(bulletLeft<20 && bulletLeft>0 && characterTop>=130){
+        block.style.display = "none";
+        block.style.animation = "none";
         dino.style.display = "none";
         dino.style.animation = "none";
         skeleton.style.display = 'block';
