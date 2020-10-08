@@ -1,0 +1,175 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+a#list-chap1-list.btn.btn-warning {
+    background-color: #d2ff00;
+    color: black;
+    border-color: #6c757d;
+}
+ul {
+    list-style: none;
+}
+#topbar {
+    background-color: black;
+}
+#topbar ul li {
+
+}
+/* unvisited link */
+a:link {
+    color: white;
+}
+/* visited link */
+a:visited {
+    color: white;
+}
+#mainNav {
+    color: white;
+    top: 0px;
+    background-color: black;
+    width: 100%;
+}
+#mainNav a  {
+    display: inline;
+    padding-left: 5px;
+}
+button.navbar-toggler {
+}
+#gamewindow{
+    margin-top: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 50px;
+}
+#pic{
+    width: 35px;
+    height: 50px;
+    background-image: url("sprite.PNG");
+}
+#pic:hover{
+    width: 35px;
+    height: 50px;
+    background-image: url("skeleton.png");
+}
+#game{
+    width: 750px;
+    height: 200px;
+    border: 0px solid white;
+}
+#dino{
+    width: 35px;
+    height: 50px;
+    background-image: url("sprite.PNG");
+    position: relative;
+    top: 150px;
+    /*animation: jump 1s infinite;*/
+}
+#skeleton{
+    display: none;
+    width: 35px;
+    height: 50px;
+    background-image: url("skeleton.png");
+    position: relative;
+    top: 150px;
+    animation: jump 1s infinite;
+}
+.animate{
+    animation: jump 500ms;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    40%{top: 80px;}
+    50%{top: 110px;}
+    100%{top: 150px;}
+}
+#block{
+    width: 20px;
+    height: 20px;
+    background-image: url("rocket.PNG");
+    position: relative;
+    top: 130px;
+    left: 750px;
+    animation: block 1s infinite;
+}
+@keyframes block{
+    0%{left:750px;}
+    100%{left:-20px;}
+}
+span.navbar-toggler-icon {
+    width: 50px;
+    height: 40px
+}
+p {
+    font-size: 20px;
+    padding-right: 180px;
+    padding-left: 25px;
+    color: white;
+    margin-bottom: 0px;
+}
+#blog {
+    background-image: url("NKeyboard.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#blog p {
+    margin-bottom: 0px;
+}
+#events {
+    background-image: url("Code.JPG");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+    background-color: black;
+    color: white;
+    padding: 60px;
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+#home p {
+    margin-bottom: 0px;
+}
+#about p {
+    margin-bottom: 0px;
+}
+#contact p {
+    margin-bottom: 0px;
+}
+#about h1 {
+    margin-bottom: 0px;
+}
+#contact h1 {
+    margin-bottom: 0px;
+}
+a:hover {
+    color: white;
+}
+p {
+}
+form {
+    border: solid;
+    padding: 15px;
+    background-color: black;
+}
+h2 {
+    padding-bottom: 20px;
+    padding-top: 140px;
+    color: white;
+    font-size: 60px;
+}
+audio {
+    float: right;
+    width: 290px;
+}
+footer {
+    background-color: black;
+    color: dimgrey;
+    width: 100%;
+}
