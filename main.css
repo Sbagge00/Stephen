@@ -115,11 +115,17 @@ p {
     background-attachment: fixed;
     background-size: cover;
 }
+#about {
+    background-image: url("Space.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 #blog p {
     margin-bottom: 0px;
 }
 #events {
-    background-image: url("Code.JPG");
+    background-image: url("Bike1.JPG");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
